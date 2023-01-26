@@ -11,12 +11,20 @@ dependencies:
   flutter:
     sdk: flutter
   meta: ^1.2.4
-  # flutter_facebook_auth_platform_interface: ^2.4.1-no-nullsafety
+  # flutter_facebook_auth_platform_interface: ^3.0.1
+  # flutter_facebook_auth_platform_interface:
+  #   path: ../facebook_auth_platform_interface
   flutter_facebook_auth_platform_interface:
-    path: ../facebook_auth_platform_interface
-  # flutter_facebook_auth_web: ^2.4.2-no-nullsafety
+    git:
+      url: https://github.com/xbrny/flutter_facebook_auth-3.3.3-no-nullsafety
+      path: facebook_auth_platform_interface
+  # flutter_facebook_auth_web: ^3.0.0+1
+  # flutter_facebook_auth_web:
+  #   path: ../facebook_auth_web
   flutter_facebook_auth_web:
-    path: ../facebook_auth_web
+    git:
+      url: https://github.com/xbrny/flutter_facebook_auth-3.3.3-no-nullsafety
+      path: facebook_auth_web
 
 dev_dependencies:
   flutter_test:
