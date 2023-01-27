@@ -72,16 +72,20 @@ packages:
   flutter_facebook_auth_platform_interface:
     dependency: transitive
     description:
-      path: "../../facebook_auth_platform_interface"
-      relative: true
-    source: path
+      path: facebook_auth_platform_interface
+      ref: HEAD
+      resolved-ref: "982233d9bee0e9575a3d17977e437de818e61ada"
+      url: "https://github.com/xbrny/flutter_facebook_auth-3.3.3-no-nullsafety"
+    source: git
     version: "2.4.1-no-nullsafety"
   flutter_facebook_auth_web:
     dependency: transitive
     description:
-      path: "../../facebook_auth_web"
-      relative: true
-    source: path
+      path: facebook_auth_web
+      ref: HEAD
+      resolved-ref: "982233d9bee0e9575a3d17977e437de818e61ada"
+      url: "https://github.com/xbrny/flutter_facebook_auth-3.3.3-no-nullsafety"
+    source: git
     version: "2.4.2-no-nullsafety"
   flutter_web_plugins:
     dependency: transitive
